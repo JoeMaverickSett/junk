@@ -1,8 +1,36 @@
 body {
     background-color: #D0D0D0;
     font: ubuntu;
-    font-color: black;}
+    font-color: black;
+    line-height: 1.5em;}
 h1 {
-    text-align: center;}
+    text-align: center;
+    padding: 10px;
+    background-color: #efefef;
+    margin: 0px;}
+h3 {
+    clear: right;
+    padding-left: 110px;}
+div.nav { 
+    display: inline;
+    top: 80px; left: 10px;
+    width: 150px;
+    height: 50px;
+    padding: 10px;}
+div.nav:before {
+    content: "Menu:";
+    font-weight: bold;}
+abbr {
+    border-bottom: 1px dotted;
+    border-color: #333;
+    cursor: help;}
+img.logo {
+    float: left;
+    padding-top: 10px;
+    border: 1px;
+    margin-right: 5px;}
+ul {
+    clear: right;
+    padding-left: 150px;}
 p.softwares {
     text-align: center;}
